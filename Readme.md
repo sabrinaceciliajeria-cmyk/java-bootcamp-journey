@@ -37,23 +37,23 @@ Cada actividad posee su propia carpeta numerada y documentada de forma independi
 ```text
 01.variables-java/
 │
-├── Main.java
+├── MenuVariables.java
 └── README.md
 
 02.boleta-inteligente-java/
 │
-├── Main.java
-├── README.md
-│
-└── desafios/
-    └── BoletaPro.java
+├── Boleta.java
+├── BoletaPro.java
+└── README.md
 
 03.loopcommerce-java/
 │
+├── .gitignore
 ├── LoopCommerce.java
-├── README.md
-└── .gitignore
+└── README.md
 ```
+
+En proyectos más complejos podrán incorporarse nuevas carpetas, paquetes y clases para mantener una arquitectura limpia y escalable.
 
 En proyectos más complejos podrán incorporarse nuevas carpetas, paquetes y clases para mantener una arquitectura limpia, modular y escalable.
 
