@@ -1,314 +1,176 @@
-# 02 - Boleta Inteligente en Java
+# 🚀 Java Bootcamp Journey
 
-## Objetivo
+Repositorio educativo que documenta mi proceso de aprendizaje y práctica durante un bootcamp de programación enfocado en Java y desarrollo de software.
 
-Crear un programa que simule el funcionamiento básico de una boleta de supermercado utilizando Java.
-
-La actividad permite comprender cómo utilizar variables, tipos de datos numéricos y operaciones matemáticas para resolver un problema del mundo real: calcular el valor de productos vendidos por peso y por unidad.
-
-Además, incorpora un desafío adicional donde se evoluciona el programa hacia una pequeña aplicación de ventas con catálogo de productos, carrito de compra y generación de boleta.
+El objetivo de este proyecto es construir una colección progresiva de ejercicios, actividades guiadas y mini proyectos que permitan consolidar conocimientos fundamentales y evolucionar gradualmente hacia conceptos más avanzados del ecosistema Java.
 
 ---
 
-# Conceptos trabajados
+# 🎯 Objetivos del repositorio
 
-## Actividad principal
+Este repositorio busca:
 
-* Variables
-* Tipos de datos
-* `double`
-* `int`
-* Operaciones matemáticas
-* Entrada de datos con `Scanner`
-* Cálculo de precios
-* Porcentajes
-* IVA
-* `System.out.printf()`
-
-## Desafío: Boleta Pro
-
-* Arreglos (`Arrays`)
-* `ArrayList`
-* Menús interactivos
-* Búsqueda de información
-* Catálogo de productos
-* Almacenamiento temporal de datos
-* Formato de salida en consola
-* Métodos
+* Documentar mi aprendizaje y evolución como desarrollador.
+* Servir como material educativo para otros estudiantes.
+* Aplicar buenas prácticas de programación desde las primeras etapas.
+* Construir un portafolio técnico profesional y público.
+* Crear una referencia organizada para repasar conceptos en el futuro.
 
 ---
 
-# Explicación del funcionamiento
+# 📚 Contenido
 
-## Boleta Inteligente
+| Nº | Actividad                    | Descripción                                                                                             |
+| -- | ---------------------------- | ------------------------------------------------------------------------------------------------------- |
+| 01 | `01.variables-java`          | Introducción a variables, tipos primitivos, Wrapper Classes, Scanner y menús interactivos en consola.   |
+| 02 | `02.boleta-inteligente-java` | Cálculo de precios por peso, operaciones matemáticas, IVA y simulación de boletas de supermercado.      |
+| 03 | `03.loopcommerce-java`       | Simulación de un e-commerce utilizando `while`, `do-while`, `for`, `for-each`, arreglos y acumuladores. |
 
-El programa solicita información de productos y calcula automáticamente su valor.
-
-Para productos vendidos por peso utiliza:
-
-```text
-Precio por kilo × cantidad comprada
-```
-
-Ejemplo:
-
-```text
-Pan
-Precio: $3000 por kilo
-Cantidad: 1.3 kg
-
-3000 × 1.3 = 3900
-```
-
-También permite agregar un producto vendido por unidad:
-
-```text
-Precio unitario × cantidad
-```
-
-Finalmente calcula:
-
-```text
-Subtotal
-IVA (19%)
-Total final
-```
+> Esta sección se actualizará progresivamente conforme se incorporen nuevas actividades y proyectos al repositorio.
 
 ---
 
-# Desafío adicional: Boleta Pro
+# 🏗️ Estructura del repositorio
 
-La versión Pro transforma el ejercicio en un pequeño sistema de ventas.
-
-## Nuevas funcionalidades
-
-### Catálogo de productos
-
-Los productos ya tienen información almacenada dentro del programa:
-
-| Producto | Unidad | Precio |
-| -------- | ------ | ------ |
-| Pan      | kg     | $3000  |
-| Leche    | litro  | $1200  |
-| Manzana  | kg     | $2500  |
-| Arroz    | kg     | $1800  |
-| Huevo    | unidad | $250   |
-
-El usuario solamente selecciona el producto y la cantidad.
-
-El sistema busca automáticamente el precio correspondiente.
-
----
-
-### Carrito de compra
-
-Los productos seleccionados se almacenan temporalmente utilizando listas:
-
-```java
-ArrayList
-```
-
-Se guarda:
-
-* Nombre del producto.
-* Unidad de venta.
-* Cantidad.
-* Precio.
-* Total del producto.
-
----
-
-### Generación de boleta
-
-Al finalizar la compra se genera una salida similar a una boleta real:
+Cada actividad posee su propia carpeta numerada y documentada de forma independiente.
 
 ```text
-=========================================
-        🧾 SUPERMERCADO JAVA
-=========================================
+01.variables-java/
+│
+├── MenuVariables.java
+└── README.md
 
-Producto       Cantidad    Precio   Total
------------------------------------------
-leche          2 litro     $1200    $2400
-pan            1.30 kg     $3000    $3900
-
------------------------------------------
-NETO:                         $6300
-IVA (19%):                    $1197
-TOTAL:                        $7497
-
-=========================================
-```
-
----
-
-# Estructura del proyecto
-
-```text
 02.boleta-inteligente-java/
 │
-├── Main.java
-├── README.md
+├── Boleta.java
+├── BoletaPro.java
+└── README.md
+
+03.loopcommerce-java/
 │
-└── desafios/
-    │
-    └── BoletaPro.java
+├── .gitignore
+├── LoopCommerce.java
+└── README.md
 ```
+
+En proyectos más complejos podrán incorporarse nuevas carpetas, paquetes y clases para mantener una arquitectura limpia y escalable.
+
+En proyectos más complejos podrán incorporarse nuevas carpetas, paquetes y clases para mantener una arquitectura limpia, modular y escalable.
 
 ---
 
-# Cómo ejecutar el proyecto
+# 🛠️ Tecnologías utilizadas
 
-## Ejecutar actividad principal
+* Java
+* JDK 17+ (compatible con versiones recientes)
+* IntelliJ IDEA / VS Code
+* Git
+* GitHub
 
-Compilar:
+---
+
+# 📖 Metodología de aprendizaje
+
+Cada actividad sigue una estructura educativa consistente:
+
+* Objetivo de aprendizaje.
+* Explicación de conceptos.
+* Implementación práctica.
+* Ejemplo de ejecución.
+* Tabla de conceptos utilizados.
+* Aprendizajes obtenidos.
+* Posibles mejoras y desafíos adicionales.
+
+La intención es que cualquier persona pueda comprender el contenido incluso si está comenzando a programar.
+
+---
+
+# ✅ Buenas prácticas aplicadas
+
+A lo largo del repositorio se busca incorporar progresivamente prácticas profesionales como:
+
+* Nombres descriptivos para variables y métodos.
+* Código limpio y legible.
+* Separación de responsabilidades.
+* Uso adecuado de comentarios.
+* Organización de proyectos escalable.
+* Refactorización continua.
+* Documentación clara y mantenible.
+* Uso de `.gitignore` para mantener repositorios limpios.
+
+---
+
+# ▶️ Cómo ejecutar los ejercicios
+
+Ubicarse dentro de la carpeta correspondiente al ejercicio:
+
+```bash
+cd 01.variables-java
+```
+
+Compilar el proyecto:
 
 ```bash
 javac Main.java
 ```
 
-Ejecutar:
+Ejecutar el programa:
 
 ```bash
 java Main
 ```
 
----
-
-## Ejecutar desafío Boleta Pro
-
-Como el archivo pertenece al paquete `desafios`:
-
-Compilar desde la carpeta principal:
-
-```bash
-javac desafios\BoletaPro.java
-```
-
-Ejecutar:
-
-```bash
-java desafios.BoletaPro
-```
-
----
-
-# Ejemplo de ejecución
-
-## Boleta Pro
-
-```text
-=====================================
-     🛒 BOLETA PRO JAVA
-=====================================
-
-1. Ver productos
-2. Comprar producto
-3. Finalizar compra
-4. Salir
-
-Seleccione opción:
-```
-
-Ejemplo de compra:
-
-```text
-Producto:
-leche
-
-Cantidad:
-2
-```
-
-Resultado:
-
-```text
-Producto agregado correctamente.
-```
-
-Boleta final:
-
-```text
-Producto       Cantidad    Precio   Total
------------------------------------------
-leche          2 litro     $1200    $2400
-pan             1.30 kg    $3000    $3900
-
------------------------------------------
-NETO:                         $6300
-IVA (19%):                    $1197
-TOTAL:                        $7497
-```
-
----
-
-# Tabla de conceptos utilizados
-
-| Elemento    | Tipo                | Función                           |
-| ----------- | ------------------- | --------------------------------- |
-| `double`    | Tipo primitivo      | Guarda números decimales          |
-| `int`       | Tipo primitivo      | Guarda números enteros            |
-| `String`    | Clase               | Representa texto                  |
-| `Scanner`   | Clase               | Permite leer datos del teclado    |
-| `ArrayList` | Colección           | Guarda elementos dinámicamente    |
-| `Array`     | Estructura de datos | Guarda valores relacionados       |
-| `for`       | Bucle               | Recorre elementos                 |
-| `switch`    | Control             | Ejecuta opciones del menú         |
-| `if`        | Condicional         | Permite tomar decisiones          |
-| `printf()`  | Método              | Permite mostrar datos con formato |
-| `package`   | Organización        | Agrupa clases relacionadas        |
-| `return`    | Instrucción         | Devuelve un valor desde un método |
-
----
-
-# Aprendizajes obtenidos
-
-Al completar esta actividad el estudiante logra:
-
-* Aplicar variables en un problema real.
-* Trabajar con números decimales.
-* Comprender cálculos comerciales.
-* Utilizar métodos para organizar código.
-* Crear menús interactivos.
-* Trabajar con arreglos y listas.
-* Diseñar una pequeña lógica de ventas.
-* Entender cómo un programa puede evolucionar desde algo simple hacia un sistema más completo.
-
----
-
-# Posibles mejoras
-
-* Crear una clase `Producto`.
-* Crear una clase `Carrito`.
-* Guardar las boletas en archivos.
-* Agregar clientes.
-* Generar número de boleta.
-* Agregar descuentos.
-* Crear historial de compras.
-* Conectar con una base de datos.
-
----
-
-# Próxima evolución
-
-La siguiente versión del proyecto puede convertirse en:
-
-## Boleta Pro orientada a objetos
-
-Incorporando:
-
-* Clases.
-* Objetos.
-* Encapsulamiento.
-* Constructores.
-* Métodos de instancia.
+En actividades que utilicen un nombre de clase distinto, se deberá reemplazar `Main` por el nombre correspondiente del archivo principal.
 
 Ejemplo:
 
-```text
-Producto.java
-Carrito.java
-Boleta.java
+```bash
+javac LoopCommerce.java
+java LoopCommerce
 ```
 
-Esta evolución permitirá acercarse a la construcción de aplicaciones reales utilizando Java.
+---
+
+# 📈 Progresión del aprendizaje
+
+El recorrido de aprendizaje está pensado para avanzar desde los conceptos fundamentales hacia el desarrollo de aplicaciones más completas:
+
+```text
+Variables
+   ↓
+Condicionales
+   ↓
+Bucles
+   ↓
+Arreglos
+   ↓
+Métodos
+   ↓
+POO
+   ↓
+Colecciones
+   ↓
+Persistencia
+   ↓
+Bases de datos
+   ↓
+Proyectos integradores
+```
+
+---
+
+# 🤝 Contribuciones y sugerencias
+
+Si eres estudiante, desarrollador o mentor y deseas aportar ideas, mejoras o sugerencias, serán siempre bienvenidas.
+
+El aprendizaje colaborativo es una de las mejores herramientas para crecer profesionalmente.
+
+---
+
+# 📌 Nota final
+
+Este repositorio representa una fotografía del proceso de aprendizaje continuo de un desarrollador.
+
+Más que mostrar únicamente resultados finales, busca reflejar la evolución, las decisiones técnicas y la construcción progresiva de habilidades a lo largo del tiempo.
+
+Cada commit es un paso más en el camino.

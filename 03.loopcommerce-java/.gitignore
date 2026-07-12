@@ -1,0 +1,15 @@
+# Ignora los archivos compilados de Java (.class)
+*.class
+
+# Ignora archivos de registro generados por aplicaciones
+*.log
+
+# Ignora carpetas utilizadas para compilaciones o builds
+bin/
+out/
+
+# Ignora archivos ocultos creados por macOS
+.DS_Store
+
+# Ignora configuraciones locales del IDE IntelliJ IDEA
+.idea/

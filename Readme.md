@@ -20,12 +20,13 @@ Este repositorio busca:
 
 # 📚 Contenido
 
-| Nº | Actividad               | Descripción                                                                                 |
-| -- | ----------------------- | ------------------------------------------------------------------------------------------- |
-| 01 | `01.variables-java`     | Introducción a variables, tipos primitivos, Wrapper Classes y entrada de datos por consola. |
+| Nº | Actividad                    | Descripción                                                                                             |
+| -- | ---------------------------- | ------------------------------------------------------------------------------------------------------- |
+| 01 | `01.variables-java`          | Introducción a variables, tipos primitivos, Wrapper Classes, Scanner y menús interactivos en consola.   |
+| 02 | `02.boleta-inteligente-java` | Cálculo de precios por peso, operaciones matemáticas, IVA y simulación de boletas de supermercado.      |
+| 03 | `03.loopcommerce-java`       | Simulación de un e-commerce utilizando `while`, `do-while`, `for`, `for-each`, arreglos y acumuladores. |
 
 > Esta sección se actualizará progresivamente conforme se incorporen nuevas actividades y proyectos al repositorio.
-
 
 ---
 
@@ -39,18 +40,22 @@ Cada actividad posee su propia carpeta numerada y documentada de forma independi
 ├── Main.java
 └── README.md
 
-02.condicionales-java/
+02.boleta-inteligente-java/
 │
 ├── Main.java
-└── README.md
+├── README.md
+│
+└── desafios/
+    └── BoletaPro.java
 
-03.bucles-java/
+03.loopcommerce-java/
 │
-├── Main.java
-└── README.md
+├── LoopCommerce.java
+├── README.md
+└── .gitignore
 ```
 
-En proyectos más complejos podrán incorporarse nuevas carpetas y clases para mantener una arquitectura limpia y escalable.
+En proyectos más complejos podrán incorporarse nuevas carpetas, paquetes y clases para mantener una arquitectura limpia, modular y escalable.
 
 ---
 
@@ -91,6 +96,7 @@ A lo largo del repositorio se busca incorporar progresivamente prácticas profes
 * Organización de proyectos escalable.
 * Refactorización continua.
 * Documentación clara y mantenible.
+* Uso de `.gitignore` para mantener repositorios limpios.
 
 ---
 
@@ -112,6 +118,15 @@ Ejecutar el programa:
 
 ```bash
 java Main
+```
+
+En actividades que utilicen un nombre de clase distinto, se deberá reemplazar `Main` por el nombre correspondiente del archivo principal.
+
+Ejemplo:
+
+```bash
+javac LoopCommerce.java
+java LoopCommerce
 ```
 
 ---
