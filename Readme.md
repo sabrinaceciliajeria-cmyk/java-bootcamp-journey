@@ -25,6 +25,7 @@ Este repositorio busca:
 | 01 | `01.variables-java`          | Introducción a variables, tipos primitivos, Wrapper Classes, Scanner y menús interactivos en consola.   |
 | 02 | `02.boleta-inteligente-java` | Cálculo de precios por peso, operaciones matemáticas, IVA y simulación de boletas de supermercado.      |
 | 03 | `03.loopcommerce-java`       | Simulación de un e-commerce utilizando `while`, `do-while`, `for`, `for-each`, arreglos y acumuladores. |
+| 04 | `04.advanced-calculator-java` | Calculadora avanzada utilizando métodos, modularización, validaciones y reutilización de código. |
 
 > Esta sección se actualizará progresivamente conforme se incorporen nuevas actividades y proyectos al repositorio.
 
@@ -50,6 +51,13 @@ Cada actividad posee su propia carpeta numerada y documentada de forma independi
 │
 ├── .gitignore
 ├── LoopCommerce.java
+└── README.md
+
+04.advanced-calculator-java/
+│
+├── .gitignore
+├── AdvancedCalculator.java
+├── AdvancedCalculatorV2.java
 └── README.md
 ```
 
@@ -97,6 +105,7 @@ A lo largo del repositorio se busca incorporar progresivamente prácticas profes
 * Refactorización continua.
 * Documentación clara y mantenible.
 * Uso de `.gitignore` para mantener repositorios limpios.
+* Modularización mediante métodos reutilizables.
 
 ---
 
@@ -136,26 +145,21 @@ java LoopCommerce
 El recorrido de aprendizaje está pensado para avanzar desde los conceptos fundamentales hacia el desarrollo de aplicaciones más completas:
 
 ```text
-Variables
-   ↓
-Condicionales
-   ↓
-Bucles
-   ↓
-Arreglos
-   ↓
-Métodos
-   ↓
-POO
-   ↓
-Colecciones
-   ↓
-Persistencia
-   ↓
-Bases de datos
-   ↓
-Proyectos integradores
+✅ Variables y tipos de datos
+✅ Scanner y entrada de datos
+✅ Operaciones matemáticas
+✅ Condicionales y menús
+✅ Bucles y control de flujo
+✅ Arreglos
+✅ Métodos y modularización
+✅ Refactorización básica
+⬜ Programación Orientada a Objetos
+⬜ Colecciones
+⬜ Persistencia
+⬜ Bases de datos
+⬜ Proyectos integradores
 ```
+
 
 ---
 
