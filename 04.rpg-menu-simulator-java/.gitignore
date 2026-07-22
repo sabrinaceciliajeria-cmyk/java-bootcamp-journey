@@ -1,0 +1,31 @@
+# =====================================
+# ARCHIVOS COMPILADOS DE JAVA
+# Evita subir los archivos generados al compilar el proyecto.
+# =====================================
+*.class
+
+# =====================================
+# ARCHIVOS DE REGISTRO (LOGS)
+# Excluye archivos de registro generados durante la ejecución.
+# =====================================
+*.log
+
+# =====================================
+# CARPETAS DE COMPILACIÓN
+# Contienen archivos temporales generados por el IDE o el compilador.
+# =====================================
+bin/
+out/
+
+# =====================================
+# ARCHIVOS DEL SISTEMA OPERATIVO
+# Evita subir archivos ocultos creados por macOS.
+# =====================================
+.DS_Store
+
+# =====================================
+# CONFIGURACIÓN DEL IDE
+# Excluye la configuración local del entorno de desarrollo.
+# =====================================
+.idea/
+.vscode/

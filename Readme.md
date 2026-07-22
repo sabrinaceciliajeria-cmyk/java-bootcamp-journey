@@ -20,12 +20,13 @@ Este repositorio busca:
 
 # 📚 Contenido
 
-| Nº | Actividad                    | Descripción                                                                                             |
-| -- | ---------------------------- | ------------------------------------------------------------------------------------------------------- |
-| 01 | `01.variables-java`          | Introducción a variables, tipos primitivos, Wrapper Classes, Scanner y menús interactivos en consola.   |
-| 02 | `02.boleta-inteligente-java` | Cálculo de precios por peso, operaciones matemáticas, IVA y simulación de boletas de supermercado.      |
-| 03 | `03.loopcommerce-java`       | Simulación de un e-commerce utilizando `while`, `do-while`, `for`, `for-each`, arreglos y acumuladores. |
-| 04 | `04.advanced-calculator-java` | Calculadora avanzada utilizando métodos, modularización, validaciones y reutilización de código. |
+| Nº | Actividad                     | Descripción                                                                                                  |
+| -- | ----------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| 01 | `01.variables-java`           | Introducción a variables, tipos primitivos, Wrapper Classes, Scanner y menús interactivos en consola.        |
+| 02 | `02.boleta-inteligente-java`  | Cálculo de precios por peso, operaciones matemáticas, IVA y simulación de boletas de supermercado.           |
+| 03 | `03.loopcommerce-java`        | Simulación de un e-commerce utilizando `while`, `do-while`, `for`, `for-each`, arreglos y acumuladores.      |
+| 04 | `04.rpg-menu-simulator-java`  | Simulador RPG en consola que integra variables, condicionales, arreglos y todos los tipos de bucles.         |
+| 05 | `05.advanced-calculator-java` | Calculadora avanzada utilizando métodos, modularización, validaciones y reutilización de código.             |
 
 > Esta sección se actualizará progresivamente conforme se incorporen nuevas actividades y proyectos al repositorio.
 
@@ -53,13 +54,20 @@ Cada actividad posee su propia carpeta numerada y documentada de forma independi
 ├── LoopCommerce.java
 └── README.md
 
-04.advanced-calculator-java/
+04.rpg-menu-simulator-java/
+│
+├── .gitignore
+├── RPGMenuSimulator.java
+└── README.md
+
+05.advanced-calculator-java/
 │
 ├── .gitignore
 ├── AdvancedCalculator.java
 ├── AdvancedCalculatorV2.java
 └── README.md
 ```
+
 
 En proyectos más complejos podrán incorporarse nuevas carpetas, paquetes y clases para mantener una arquitectura limpia y escalable.
 
@@ -151,13 +159,14 @@ El recorrido de aprendizaje está pensado para avanzar desde los conceptos funda
 ✅ Condicionales y menús
 ✅ Bucles y control de flujo
 ✅ Arreglos
+✅ Proyecto integrador (RPG Console Simulator)
 ✅ Métodos y modularización
 ✅ Refactorización básica
-⬜ Programación Orientada a Objetos
+⬜ Programación Orientada a Objetos (POO)
 ⬜ Colecciones
 ⬜ Persistencia
 ⬜ Bases de datos
-⬜ Proyectos integradores
+⬜ Proyectos integradores avanzados
 ```
 
 
