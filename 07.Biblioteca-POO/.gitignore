@@ -1,0 +1,15 @@
+# Archivos compilados de Java
+*.class
+
+# Carpetas de compilación
+bin/
+out/
+
+# Configuración de IntelliJ
+.idea/
+
+# Configuración de VS Code
+.vscode/
+
+# Archivos del sistema
+.DS_Store

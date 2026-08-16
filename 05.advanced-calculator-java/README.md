@@ -1,4 +1,4 @@
-# 04 - Advanced Calculator en Java
+# 05 - Advanced Calculator en Java
 
 ## 🎯 Objetivo
 
@@ -104,17 +104,17 @@ java AdvancedCalculatorV2
 
 ## 📊 Conceptos utilizados
 
-| Elemento | Función |
-|----------|---------|
-| `Scanner` | Leer datos desde teclado |
-| `switch` | Procesar opciones del menú |
-| `do-while` | Mantener el programa en ejecución |
-| `if` | Validar condiciones |
-| `return` | Retornar resultados desde métodos |
-| `Math.pow()` | Calcular potencias |
-| `Math.sqrt()` | Calcular raíces cuadradas |
-| `Math.PI` | Utilizar el valor de π |
-| `String[]` | Almacenar el historial |
+| Elemento      | Función                           |
+| ------------- | --------------------------------- |
+| `Scanner`     | Leer datos desde teclado          |
+| `switch`      | Procesar opciones del menú        |
+| `do-while`    | Mantener el programa en ejecución |
+| `if`          | Validar condiciones               |
+| `return`      | Retornar resultados desde métodos |
+| `Math.pow()`  | Calcular potencias                |
+| `Math.sqrt()` | Calcular raíces cuadradas         |
+| `Math.PI`     | Utilizar el valor de π            |
+| `String[]`    | Almacenar el historial            |
 
 ---
 
